@@ -1,4 +1,3 @@
-# uav-pharma-coldchain-vrptw
 # Autonomous UAV Cold-Chain Pharmaceutical Routing (Solo Python Implementation)
 
 > **Independent Python Optimization & Metaheuristic Framework for Time-Critical Medical Drone Delivery**
@@ -14,6 +13,8 @@ This project models an autonomous **Pure UAV Delivery Network** for temperature-
 * **Payload-Dependent Energy Model:** Battery consumption incorporating both empty flight power and carried payload mass.
 * **Delivery Time Windows ($[a_i, b_i]$) & Fleet Capacity ($Q_k$):** Hard operational constraints without truck–UAV synchronization delays.
 
+[Code_Generated_Image.png]
+
 ---
 
 ## Repository Structure
@@ -21,4 +22,22 @@ This project models an autonomous **Pure UAV Delivery Network** for temperature-
 ```text
 uav-pharma-coldchain-vrptw/
 ├── README.md
-└── demo_uav_vrptw.py       # Self-contained synthetic 6-node demo (Tabu Search vs. SA)
+├── demo_uav_vrptw.py             # Self-contained synthetic 6-node demo (Tabu Search vs. SA)
+└── Code_Generated_Image.png      # Route & convergence benchmark plot
+```
+
+---
+
+## Quick Start (Synthetic Demo)
+
+Run the standalone 6-node synthetic benchmark comparing **Tabu Search** and **Simulated Annealing**:
+
+```bash
+python demo_uav_vrptw.py
+```
+
+---
+
+## Ongoing Research Extensions
+* Multi-seed statistical benchmarking (Tabu Search vs. Simulated Annealing / ALNS).
+* Stochastic wind and emergency demand uncertainty modeling for future graduate research.
