@@ -13,7 +13,7 @@ This project models an autonomous **Pure UAV Delivery Network** for temperature-
 * **Payload-Dependent Energy Model:** Battery consumption incorporating both empty flight power and carried payload mass.
 * **Delivery Time Windows ($[a_i, b_i]$) & Fleet Capacity ($Q_k$):** Hard operational constraints without truck–UAV synchronization delays.
 
-[Code_Generated_Image.png]
+<img src="Code_Generated_Image.png" alt="UAV Routes and Convergence" width="100%">
 ---
 
 ## Repository Structure
