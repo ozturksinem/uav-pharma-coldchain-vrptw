@@ -14,7 +14,7 @@ This project models an autonomous **Pure UAV Delivery Network** for temperature-
 * **Delivery Time Windows ($[a_i, b_i]$) & Fleet Capacity ($Q_k$):** Hard operational constraints without truck–UAV synchronization delays.
 
 <img src="Code_Generated_Image.png" alt="UAV Routes and Convergence" width="100%">
----
+
 
 ## Repository Structure
 
